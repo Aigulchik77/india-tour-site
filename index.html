@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Туры в Индию из Казахстана | Aigul Travels</title>
+<meta name="description" content="Туры в Индию из Казахстана: Золотой треугольник, Раджастхан, духовная Индия, Гоа. Индивидуально под любую цену. WhatsApp +7 705 725 57 17">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    background: linear-gradient(160deg, #1a0f2e, #2a1240, #0f3460);
+    color: #f0ecf5;
+    line-height: 1.55;
+  }
+  .topbar {
+    background: rgba(0,0,0,0.35);
+    padding: 10px 20px;
+    display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap;
+    font-size: .9rem;
+  }
+  .topbar .brand { font-weight: 800; letter-spacing: .5px; }
+  .topbar .brand span { color: #ffd166; }
+  .topbar a { color: #ffd166; text-decoration: none; font-weight: 700; }
+  .langs { display: flex; gap: 8px; }
+  .langs a { color: #ffd166; font-size: .85rem; padding: 4px 10px; border: 1px solid rgba(255,209,102,.4); border-radius: 999px; }
+  header.hero {
+    text-align: center; padding: 50px 20px 36px;
+    background: radial-gradient(circle at 50% 0%, rgba(255,209,102,.14), transparent 60%);
+  }
+  header.hero h1 { font-size: clamp(1.6rem, 4.5vw, 2.5rem); margin-bottom: 12px; }
+  header.hero h1 span { color: #ffd166; }
+  header.hero p { max-width: 660px; margin: 0 auto 24px; color: rgba(240,236,245,.85); font-size: 1.02rem; }
+  .cta { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
+  .btn {
+    display: inline-block; padding: 14px 26px; border-radius: 999px;
+    font-size: 1rem; font-weight: 700; text-decoration: none; color: #fff;
+    background: linear-gradient(90deg, #e94560, #7b2ff7);
+  }
+  .btn.wa { background: linear-gradient(90deg, #25d366, #128c7e); }
+  .wrap { max-width: 1000px; margin: 0 auto; padding: 10px 20px 60px; }
+  section { margin-top: 46px; }
+  section h2 { text-align: center; font-size: clamp(1.3rem, 3vw, 1.8rem); margin-bottom: 24px; }
+  section h2 span { color: #ffd166; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 16px; }
+  .card {
+    background: rgba(255,255,255,.06);
+    border: 1px solid rgba(255,255,255,.12);
+    border-radius: 14px; padding: 20px;
+  }
+  .card .icon { font-size: 1.8rem; margin-bottom: 10px; }
+  .card h3 { font-size: 1.05rem; color: #ffd166; margin-bottom: 6px; }
+  .card p { font-size: .9rem; color: rgba(240,236,245,.85); }
+  .gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 10px; }
+  .gallery img {
+    width: 100%; height: 150px; object-fit: cover; border-radius: 12px;
+    border: 1px solid rgba(255,255,255,.15);
+  }
+  .tour {
+    background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.12);
+    border-left: 4px solid #ffd166; border-radius: 14px; padding: 22px; margin-bottom: 18px;
+  }
+  .tour h3 { font-size: 1.15rem; color: #ffd166; }
+  .tour .meta { font-size: .85rem; color: rgba(240,236,245,.7); margin: 4px 0 12px; }
+  .tour p { font-size: .92rem; color: rgba(240,236,245,.85); }
+  .price-line { margin-top: 12px; font-size: 1rem; }
+  .price-line b { color: #ffd166; font-size: 1.15rem; }
+  .dest {
+    background: rgba(255,255,255,.05);
+    border: 1px solid rgba(255,255,255,.1);
+    border-radius: 14px; padding: 22px; margin-bottom: 16px;
+  }
+  .dest h3 { font-size: 1.15rem; color: #ffd166; margin-bottom: 4px; }
+  .dest .sub { color: rgba(255,209,102,.7); font-size: .85rem; margin-bottom: 10px; }
+  .dest ul { margin: 8px 0 0 18px; }
+  .dest li { margin-bottom: 6px; font-size: .92rem; }
+  .dest li b { color: #9ae6c0; }
+  .custom {
+    background: linear-gradient(90deg, rgba(123,47,247,.15), rgba(233,69,96,.12));
+    border: 1px solid rgba(123,47,247,.4);
+    border-radius: 16px; padding: 26px; text-align: center;
+  }
+  .custom h3 { font-size: 1.3rem; color: #ffd166; margin-bottom: 10px; }
+  .custom p { max-width: 640px; margin: 0 auto 6px; font-size: .97rem; color: rgba(240,236,245,.9); }
+  .form-card {
+    background: rgba(255,255,255,.07); border: 1px solid rgba(255,255,255,.15);
+    border-radius: 16px; padding: 26px; max-width: 560px; margin: 0 auto;
+  }
+  label { display: block; font-size: .85rem; color: rgba(240,236,245,.7); margin: 12px 0 5px; }
+  input, select, textarea {
+    width: 100%; padding: 11px 14px; border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.2); background: rgba(0,0,0,0.3);
+    color: #fff; font-size: .95rem; font-family: inherit;
+  }
+  textarea { resize: vertical; min-height: 80px; }
+  button.send {
+    margin-top: 18px; width: 100%; padding: 14px; border: none; border-radius: 10px;
+    font-size: 1.05rem; font-weight: 800; cursor: pointer; color: #fff;
+    background: linear-gradient(90deg, #25d366, #128c7e);
+  }
+  .contacts { text-align: center; }
+  .contacts .big { font-size: 1.5rem; font-weight: 800; color: #ffd166; text-decoration: none; }
+  .contacts p { margin-top: 8px; color: rgba(240,236,245,.8); }
+  footer {
+    text-align: center; padding: 22px; font-size: .85rem; color: rgba(240,236,245,.5);
+    border-top: 1px solid rgba(255,255,255,0.1);
+  }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="brand">Aigul <span>Travels</span> · Турагентство</div>
+  <div class="langs">
+    <a href="index.html" style="color:#fff; background:linear-gradient(90deg,#e94560,#7b2ff7); border-color:transparent;">Рус</a>
+    <a href="index-hi.html">हिन्दी</a>
+    <a href="index-en.html">EN</a>
+  </div>
+  <a href="https://wa.me/77057255717">WhatsApp</a>
+</div>
+
+<header class="hero">
+  <h1>Туры в Индию <span>из Казахстана</span></h1>
+  <p>Золотой треугольник, Раджастхан, духовная Индия, Гоа и другие направления. Индивидуально под ваш бюджет, даты и компанию. Сопровождение на русском языке.</p>
+  <div class="cta">
+    <a class="btn" href="tel:+77057255717">📞 +7 705 725 57 17</a>
+    <a class="btn wa" href="https://wa.me/77057255717" target="_blank">💬 Написать в WhatsApp</a>
+    <a class="btn" href="mailto:ajgulbiktemirova@gmail.com">✉️ Написать на почту</a>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <section>
+    <h2>Популярные <span>направления</span></h2>
+    <div class="dest">
+      <h3>🏰 Золотой треугольник</h3>
+      <div class="sub">Дели — Агра — Джайпур · 6 дней</div>
+      <ul>
+        <li><b>Дели:</b> Кутб-Минар, Красный форт, Джама Масджид, Ворота Индии, храм Акшардхам.</li>
+        <li><b>Агра:</b> Тадж-Махал на рассвете, Агра-форт, Фатехпур-Сикри.</li>
+        <li><b>Джайпур:</b> форт Амбер со слоном, Хава Махал, Городской дворец, обсерватория Джантар-Мантар.</li>
+      </ul>
+      <p class="price-line">Цена: <b>рассчитывается индивидуально</b></p>
+    </div>
+    <div class="dest">
+      <h3>🐪 Великий Раджастхан</h3>
+      <div class="sub">Джайпур — Джодхпур — Джайсалмер — Удайпур · 12 дней</div>
+      <ul>
+        <li><b>Джодхпур:</b> голубой город, форт Мехрангарх.</li>
+        <li><b>Джайсалмер:</b> золотой форт, ночь в пустыне Тар под звёздами.</li>
+        <li><b>Удайпур:</b> белый дворец на озере Пичола, лодка на закате.</li>
+      </ul>
+      <p class="price-line">Цена: <b>рассчитывается индивидуально</b></p>
+    </div>
+    <div class="dest">
+      <h3>🕉️ Духовная Индия</h3>
+      <div class="sub">Варанаси — Ришикеш — Хардвар · 8 дней</div>
+      <ul>
+        <li><b>Варанаси:</b> Ганг, утренняя лодка, вечерняя Аарти, Сарнатх.</li>
+        <li><b>Ришикеш:</b> столица йоги, ашрамы, мост Лакшман-Джхула.</li>
+        <li><b>Хардвар:</b> гхаты и огненный ритуал.</li>
+      </ul>
+      <p class="price-line">Цена: <b>рассчитывается индивидуально</b></p>
+    </div>
+    <div class="dest">
+      <h3>🛍️ Шоппинг-туры</h3>
+      <div class="sub">3–5 дней · чай, ткани, специи, украшения</div>
+      <ul>
+        <li><b>Чай:</b> Дарджилинг, Ассам, масала-чай с дегустацией.</li>
+        <li><b>Ткани и одежда:</b> кашемир, джайпурский хлопок, шёлк Варанаси.</li>
+        <li><b>Специи и украшения:</b> проверенные магазины без туристических цен.</li>
+      </ul>
+      <p class="price-line">Цена: <b>рассчитывается индивидуально</b></p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Фото из <span>наших поездок</span></h2>
+    <div class="gallery">
+      <img src="photos/photo01.jpg" alt="Индия" loading="lazy">
+      <img src="photos/photo02.jpg" alt="Индия" loading="lazy">
+      <img src="photos/photo03.jpg" alt="Индия" loading="lazy">
+      <img src="photos/photo04.jpg" alt="Индия" loading="lazy">
+      <img src="photos/photo05.jpg" alt="Индия" loading="lazy">
+      <img src="photos/photo06.jpg" alt="Индия" loading="lazy">
+      <img src="photos/photo07.jpg" alt="Индия" loading="lazy">
+      <img src="photos/photo08.jpg" alt="Индия" loading="lazy">
+      <img src="photos/photo09.jpg" alt="Индия" loading="lazy">
+      <img src="photos/photo10.jpg" alt="Индия" loading="lazy">
+      <img src="photos/photo11.jpg" alt="Индия" loading="lazy">
+      <img src="photos/photo12.jpg" alt="Индия" loading="lazy">
+      <img src="photos/photo13.jpg" alt="Индия" loading="lazy">
+      <img src="photos/photo14.jpg" alt="Индия" loading="lazy">
+      <img src="photos/photo15.jpg" alt="Индия" loading="lazy">
+      <img src="photos/photo16.jpg" alt="Индия" loading="lazy">
+      <img src="photos/photo17.jpg" alt="Индия" loading="lazy">
+      <img src="photos/photo18.jpg" alt="Индия" loading="lazy">
+      <img src="photos/photo19.jpg" alt="Индия" loading="lazy">
+      <img src="photos/photo20.jpg" alt="Индия" loading="lazy">
+      <img src="photos/photo21.jpg" alt="Индия" loading="lazy">
+    </div>
+  </section>
+
+  <section>
+    <div class="custom">
+      <h3>🎯 Соберём тур индивидуально под вас</h3>
+      <p>Любое количество дней, любой бюджет, любая компания. Пляж, горы, йога, святыни или шоппинг — соберём под ваш запрос.</p>
+      <div class="cta" style="margin-top:16px;">
+        <a class="btn wa" href="https://wa.me/77057255717" target="_blank">💬 Обсудить свой тур в WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Рассчитайте <span>свой тур</span></h2>
+    <div class="form-card">
+      <label>Ваше имя</label>
+      <input id="f_name" placeholder="Как к вам обращаться">
+      <label>Направление</label>
+      <select id="f_tour">
+        <option>Золотой треугольник · 6 дней</option>
+        <option>Великий Раджастхан · 12 дней</option>
+        <option>Духовная Индия · 8 дней</option>
+        <option>Гоа + экскурсии · 10 дней</option>
+        <option>Шоппинг-тур</option>
+        <option>Индивидуальный тур (свой маршрут)</option>
+        <option>Не определился</option>
+      </select>
+      <div style="display:flex; gap:12px; flex-wrap:wrap;">
+        <div style="flex:1; min-width:130px;"><label>Сколько человек</label><input type="number" id="f_people" value="2" min="1"></div>
+        <div style="flex:1; min-width:130px;"><label>Даты</label><input id="f_dates" placeholder="Например: март 2027"></div>
+      </div>
+      <label>Комментарий</label>
+      <textarea id="f_msg" placeholder="Пожелания…"></textarea>
+      <button class="send" onclick="sendOrder()">💬 Отправить заявку в WhatsApp</button>
+      <p style="text-align:center; font-size:.85rem; color:rgba(240,236,245,.6); margin-top:10px;">Или позвоните: <a href="tel:+77057255717" style="color:#ffd166;">+7 705 725 57 17</a></p>
+    </div>
+  </section>
+
+  <section class="contacts">
+    <h2>Наши <span>контакты</span></h2>
+    <a class="big" href="tel:+77057255717">📞 +7 705 725 57 17</a>
+    <p>WhatsApp — <a href="https://wa.me/77057255717" style="color:#ffd166;">написать сообщение</a></p>
+    <p>E-mail: <a href="mailto:ajgulbiktemirova@gmail.com" style="color:#ffd166;">ajgulbiktemirova@gmail.com</a></p>
+    <p>Приём заявок: ежедневно</p>
+  </section>
+
+</div>
+
+<footer>
+  Aigul Travels · Туры в Индию из Казахстана · © 2026
+</footer>
+
+<script>
+function sendOrder() {
+  const name = document.getElementById('f_name').value.trim();
+  const tour = document.getElementById('f_tour').value;
+  const people = document.getElementById('f_people').value;
+  const dates = document.getElementById('f_dates').value.trim();
+  const msg = document.getElementById('f_msg').value.trim();
+
+  const text =
+    'Здравствуйте! Хочу узнать про тур в Индию.\n' +
+    (name ? 'Имя: ' + name + '\n' : '') +
+    'Направление: ' + tour + '\n' +
+    'Человек: ' + people + '\n' +
+    (dates ? 'Даты: ' + dates + '\n' : '') +
+    (msg ? 'Комментарий: ' + msg + '\n' : '');
+
+  window.open('https://wa.me/77057255717?text=' + encodeURIComponent(text), '_blank');
+}
+</script>
+</body>
+</html>
